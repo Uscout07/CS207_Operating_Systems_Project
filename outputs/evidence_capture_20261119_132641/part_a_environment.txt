@@ -1,0 +1,23 @@
+Date: Thu Nov 19 01:26:41 PM UTC 2026
+Computer name: CS207Assignment
+Operating system: Ubuntu 26.04.1 LTS
+
+GCC version:
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+
+Kernel and system:
+Linux CS207Assignment 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
+
+CPU details:
+Architecture:                            x86_64
+CPU(s):                                  4
+Model name:                              AMD Ryzen 5 7520U with Radeon Graphics
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.2Gi       251Mi       152Mi       1.2Gi       1.1Gi
+Swap:             0B          0B          0B
+
+Disk space:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        25G  7.0G   17G  31% /

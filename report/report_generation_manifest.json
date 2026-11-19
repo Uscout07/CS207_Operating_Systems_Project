@@ -1,0 +1,44 @@
+{
+  "assignment": "CS207 Operating Systems Design - Assignment 1",
+  "project_root": "/home/user/project/CS207_Operating_Systems_Project",
+  "screenshot_root": "/home/user/project/CS207_Operating_Systems_Project/screenshots",
+  "docx": "/home/user/project/CS207_Operating_Systems_Project/report/CS207_Assignment1_Report.docx",
+  "pdf": "/home/user/project/CS207_Operating_Systems_Project/report.pdf",
+  "images": {
+    "part_a": [
+      "screenshots/part_a/1.png",
+      "screenshots/part_a/2.png",
+      "screenshots/part_a/3.png",
+      "screenshots/part_a/4.png"
+    ],
+    "part_b": [
+      "screenshots/part_b/1.png"
+    ],
+    "part_c": [
+      "screenshots/part_c/1.png"
+    ],
+    "part_d": [
+      "screenshots/part_d/1.png",
+      "screenshots/part_d/2.png"
+    ],
+    "part_e": [
+      "screenshots/part_e/1.png",
+      "screenshots/part_e/2.png",
+      "screenshots/part_e/3.png"
+    ],
+    "part_f": [
+      "screenshots/part_f/1.png",
+      "screenshots/part_f/2.png"
+    ]
+  },
+  "image_counts": {
+    "part_a": 4,
+    "part_b": 1,
+    "part_c": 1,
+    "part_d": 2,
+    "part_e": 3,
+    "part_f": 2
+  },
+  "missing_evidence": [],
+  "note": "Missing evidence is flagged; no program output or screenshot is fabricated."
+}

@@ -1,0 +1,16 @@
+Ubuntu: Ubuntu 26.04.1 LTS
+GCC: gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Kernel: Linux 7.0.0-43-generic
+
+CPU and VM details:
+Architecture:                            x86_64
+CPU(s):                                  4
+Model name:                              AMD Ryzen 5 7520U with Radeon Graphics
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.2Gi       237Mi       152Mi       1.2Gi       1.1Gi
+
+Disk space:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        25G  7.0G   17G  31% /

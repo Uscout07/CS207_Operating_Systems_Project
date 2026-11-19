@@ -1,0 +1,17 @@
+CS207 REPORT GENERATION SUMMARY
+================================
+DOCX: /home/user/project/CS207_Operating_Systems_Project/report/CS207_Assignment1_Report.docx
+PDF: /home/user/project/CS207_Operating_Systems_Project/report.pdf
+
+SCREENSHOT COUNTS:
+part_a: 4 file(s) found
+part_b: 1 file(s) found
+part_c: 1 file(s) found
+part_d: 2 file(s) found
+part_e: 3 file(s) found
+part_f: 2 file(s) found
+
+MISSING EVIDENCE:
+None; every part folder contains at least one image.
+
+All images found in each screenshots/part_*/ folder are inserted together, in numeric filename order, without individual labels or captions. No output has been fabricated.
