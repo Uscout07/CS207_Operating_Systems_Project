@@ -1,0 +1,40 @@
+CC ?= gcc
+CFLAGS ?= -std=c17 -Wall -Wextra -Wpedantic -O2
+BIN_DIR ?= bin
+
+.PHONY: part-d bankers part-e page-replacement disk-scheduling \
+        test-part-d test-part-e part-f-demo test-all
+
+all: bankers page-replacement disk-scheduling
+
+part-d: bankers
+bankers: $(BIN_DIR)/bankers
+$(BIN_DIR)/bankers: src/part_d/bankers.c
+	mkdir -p $(BIN_DIR)
+	$(CC) $(CFLAGS) $< -o $@
+
+part-e: page-replacement disk-scheduling
+page-replacement: $(BIN_DIR)/page_replacement
+$(BIN_DIR)/page_replacement: src/part_e/page_replacement.c
+	mkdir -p $(BIN_DIR)
+	$(CC) $(CFLAGS) $< -o $@
+
+disk-scheduling: $(BIN_DIR)/disk_scheduling
+$(BIN_DIR)/disk_scheduling: src/part_e/disk_scheduling.c
+	mkdir -p $(BIN_DIR)
+	$(CC) $(CFLAGS) $< -o $@
+
+test-part-d: bankers
+	bash tests/part_d/run_tests.sh
+
+test-part-e: page-replacement disk-scheduling
+	bash tests/part_e/run_tests.sh
+
+part-f-demo:
+	bash scripts/part_f_demo.sh
+
+test-all:
+	@if [ -f tests/part_b/run_tests.sh ]; then bash tests/part_b/run_tests.sh; else echo "No tests/part_b/run_tests.sh found; run the existing Part B checks separately."; fi
+	$(MAKE) test
+	$(MAKE) test-part-d
+	$(MAKE) test-part-e

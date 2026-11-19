@@ -1,0 +1,1 @@
+These are sample notes for the CS207 operating systems assignment.
